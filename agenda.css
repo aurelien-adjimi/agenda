@@ -5,11 +5,13 @@
 }
   
 header > nav {
-    float: left;
-    margin: auto;
+    margin-right: 50px;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border: 2px solid white;
     height: auto;
     background-color: white;
@@ -19,17 +21,42 @@ header {
 .titre {
     margin: auto;
     text-align: center;
-    font-family: tahoma;
 }
 
 .liens {
     text-align: right;
-    margin: auto;
+    margin-left: 30px;
 }
+
 h1 {
-    font-family: Tahoma;
+    font-family : 'Satisfy', cursif ;
+    font-style: italic;
     text-align: center;
     padding: 20px;
+}
+
+.mois {
+    font-size: 52px;
+}
+
+.semaine {
+    font-size: 15px;
+}
+
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.colonne1 {
+    width: 20%;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.colonne2 {
+    width: 80%;
 }
 
 #tableau {
@@ -45,6 +72,7 @@ h1 {
 
 #tableau th {
     border: 2px solid;
+    font-style: italic;
 }
 
 th {
@@ -75,6 +103,7 @@ td {
 
 .coding1 {
     text-align: center;
+    text-decoration: black;
 }
 
 .coding2 {
@@ -117,6 +146,10 @@ td {
     text-align: center;
 }
 
+.coding12 {
+    text-align: center;
+}
+
 .repas {
     text-align: center;
 }
@@ -126,6 +159,58 @@ td {
 }
 
 .rdv {
+    text-align: center;
+}
+
+.rdv2 {
+    text-align: center;
+}
+
+.rdv3 {
+    text-align: center;  
+}
+
+.heure1 {
+    text-align: center;
+}
+
+.rdv4 {
+    text-align: center;  
+}
+
+.heure2 {
+    text-align: center;
+}
+
+.rdv5 {
+    text-align: center;  
+}
+
+.heure3 {
+    text-align: center;
+}
+
+.rdv6 {
+    text-align: center;  
+}
+
+.heure4 {
+    text-align: center;
+}
+
+.rdv7 {
+    text-align: center;  
+}
+
+.heure5 {
+    text-align: center;
+}
+
+.rdv8 {
+    text-align: center;  
+}
+
+.heure6 {
     text-align: center;
 }
 
@@ -139,4 +224,91 @@ td {
 
 .workshop3 {
     text-align: center;
+}
+
+.BB1 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB2 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB3 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB4 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB5 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB6 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB7 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB8 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB9 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB10 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.BB11 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.dayoff {
+text-align: center;
+}
+
+.moveon {
+text-align: center;
+}
+
+.double {
+    text-align: center;
+    font-size: 12px;
+}
+
+.double2 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.broadcast {
+    text-align: center;
+    font-size: 12px; 
+}
+
+.julien {
+    text-align: center;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
 }
