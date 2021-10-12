@@ -1,0 +1,142 @@
+#top {
+    display: inline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+header > nav {
+    float: left;
+    margin: auto;
+}
+
+header {
+    border: 2px solid white;
+    height: auto;
+    background-color: white;
+    background-image: url("https://media.istockphoto.com/videos/light-grey-white-looped-gradient-abstract-background-video-id1224826528?b=1&k=20&m=1224826528&s=640x640&h=Mtnb93u3qiqV-jDN1voZOqwIEtUPFqQ_NnIHe8IXWso=");
+}
+
+.titre {
+    margin: auto;
+    text-align: center;
+    font-family: tahoma;
+}
+
+.liens {
+    text-align: right;
+    margin: auto;
+}
+h1 {
+    font-family: Tahoma;
+    text-align: center;
+    padding: 20px;
+}
+
+#tableau {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    table-layout: fixed;
+}
+
+#tableau td {
+    border: 1px solid;
+}
+
+#tableau th {
+    border: 2px solid;
+}
+
+th {
+    height: 50px;
+}
+
+td {
+    width: 100px;
+}
+
+.dodo1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+.dodo2 {
+    text-align: center;
+    font-size: 52px;
+}
+
+.trajet {
+    text-align: center;
+}
+
+.wake {
+    text-align: center;
+}
+
+.coding1 {
+    text-align: center;
+}
+
+.coding2 {
+    text-align: center;
+}
+
+.coding3 {
+    text-align: center;
+}
+
+.coding4 {
+    text-align: center;
+}
+
+.coding5 {
+    text-align: center;
+}
+
+.coding6 {
+    text-align: center;
+}
+
+.coding7 {
+    text-align: center;
+}
+
+.coding8 {
+    text-align: center;
+}
+
+.coding9 {
+    text-align: center;
+}
+
+.coding10 {
+    text-align: center;
+}
+
+.coding11 {
+    text-align: center;
+}
+
+.repas {
+    text-align: center;
+}
+
+.workshop1 {
+    text-align: center;
+}
+
+.rdv {
+    text-align: center;
+}
+
+.concert {
+    text-align: center;
+}
+
+.workshop2 {
+    text-align: center;
+}
+
+.workshop3 {
+    text-align: center;
+}
